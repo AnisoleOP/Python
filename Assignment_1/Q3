@@ -1,0 +1,12 @@
+tup=(1,2,1,3)
+flag=-1
+j=len(tup)
+for i in range(j):
+    n=tup[i]
+    for k in range(j):
+        if n!=tup[k]:
+            flag=0
+if flag==-1:
+    print("True")
+else:
+    print("False")

@@ -1,0 +1,6 @@
+list=["hi","hello","hey"]
+n=int(input("Enter the value of n:"))
+j=len(list)
+for i in range(j):
+    if len(list[i])>n:
+        print(list[i],end=' ')

@@ -1,0 +1,7 @@
+tup=("hi","hello","hey")
+l=[]
+j=len(tup)
+for i in range(j):
+    for k in tup[i]:
+        l.append(ord(k))
+print(l)

@@ -1,0 +1,9 @@
+keys=['Ten','Twenty','Thirty']
+values=[10,20,30]
+dic={}
+i=len(keys)
+j=len(values)
+if i==j:
+    for k in range(i):
+        dic[keys[k]]=values[k]
+print(dic)
